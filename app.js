@@ -23,8 +23,8 @@ const MONGODB_URI =
 
 const app = express();
 
-const key =fs.readFileSync('server.key');
-const cert =fs.readFileSync('server.cert');
+// const key =fs.readFileSync('server.key');
+// const cert =fs.readFileSync('server.cert');
 
 console.log(process.env.MONGO_USER)
 
@@ -142,4 +142,3 @@ mongoose
     console.log(err);
   });
 
-// MONGO_USER=mongodb+srv://mohsen:DZFZpuN88Gmkbdj@cluster0test.mc0rmsv.mongodb.net/shop?retryWrites=true&w=majority STRIPE_KEY  = sk_test_51NraT5FmS41qTFNV7S3It5KXdDaf9LBlVy3gYB1Xo0Avb9c0xNbtxjAAy1rSqyQxW2tgzE4OnV247X6zblsKBoZ700AbzBWgLD
