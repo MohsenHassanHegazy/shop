@@ -31,6 +31,9 @@
   "name": "calc",
   "version": "1.0.0",
   "main": "app.js",
+  "engines": {
+    "node": "15.14.0"
+   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production  nodemon app",
